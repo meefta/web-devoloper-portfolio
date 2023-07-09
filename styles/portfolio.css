@@ -14,6 +14,23 @@ body{
     font-size: 45px;
     font-weight: 800;
 }
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+
+
 .text-primary{
     color: #FD6E0A;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav>a{
+    text-decoration: none;
+    color: #474747;
 }
