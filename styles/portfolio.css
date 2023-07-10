@@ -4,6 +4,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 /* common shared styles */
@@ -43,4 +44,22 @@ nav li{
 nav>a{
     text-decoration: none;
     color: #474747;
+}
+/* related header style */
+.heads{
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-greeting{
+    margin: 0;
+}
+.banner-title{
+    margin: 0;
+}
+.banner .profile{
+    width: 500px;
 }
